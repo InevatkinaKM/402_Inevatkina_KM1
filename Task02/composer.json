@@ -1,0 +1,26 @@
+{
+    "name": "rmvit/hangman",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Inevatkina_KM",
+            "email": "rmvitk.inevatkina@yandex.ru"
+        }
+    ],
+    "description": "",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.15"
+    },
+    "bin": [
+        "bin/hangman.php"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rmvit\\hangman\\": "src/"
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    }
+}
