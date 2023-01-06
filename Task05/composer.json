@@ -1,0 +1,26 @@
+{
+    "name": "rmvit/hangman",
+    "description": "Game",
+    "autoload": {
+        "files": [
+			"src/Controller.php",
+			"src/View.php",
+            "src/Model.php"
+		]
+    },
+	"bin": [
+		"bin/hangman.php"
+	],
+	"type": "project",
+    "authors": [
+        {
+            "name": "Konstantin-Arhipov",
+            "email": "arhkostya01@mail.ru"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.13",
+        "gabordemooij/redbean": "dev-master",
+        "squizlabs/php_codesniffer": "^3.7"
+    }
+}
